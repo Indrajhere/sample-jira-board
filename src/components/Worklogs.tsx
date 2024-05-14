@@ -22,9 +22,7 @@ interface WorklogProps {
 
 const Worklog = ({ logHeading, items, handleDrop, handleDragEnter, handleDragOver, handleDragStart }: WorklogProps) => {
 
-console.log('worklog rendering')
-
-
+// console.log('worklog rendering')
 
   return (
     <div className='p-3 rounded-md bg-neutral-300 min-h-[200px] w-1/3'
